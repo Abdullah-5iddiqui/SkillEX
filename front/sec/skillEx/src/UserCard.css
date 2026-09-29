@@ -1,0 +1,33 @@
+.user-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+
+.skill-block {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.skill-type {
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.skill-type.offer {
+  background-color: #d1f7c4;
+  color: #206a00;
+}
+
+.skill-type.learn {
+  background-color: #cfe2ff;
+  color: #004085;
+}
+/* .user-card button{
+  position: absolute;
+  bottom: 5px;
+} */

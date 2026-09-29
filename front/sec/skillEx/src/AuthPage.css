@@ -1,0 +1,63 @@
+/* Fullscreen background with center-aligned form */
+.auth-container {
+    background-image: url('./assets/vinland.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    height: 100vh;
+    width: 100vw;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form styling */
+  .auth-form {
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    text-align: center;
+  }
+  
+  .auth-form h2 {
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .auth-form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .auth-form button:hover {
+    background-color: #357ABD;
+  }
+  
+  .toggle-link {
+    margin-top: 1rem;
+    color: #4a90e2;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,36 @@
+/* .user-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color:black;
+  } */
+
+  .skill-block {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-top: 1px solid #ccc;
+  }
+  
+  .user-card h3 {
+    margin-bottom: 0.5rem;
+  }
+  .user-card p {
+    margin: 0.25rem 0;
+  }
+
+  .user-card-list {
+    display: flex;
+    flex-wrap: wrap; /* Ensure cards can wrap to the next line */
+    gap: 1rem; /* Add space between cards */
+  }
+  .user-card {
+    width: 200px; /* Set width or max-width to ensure they don’t overflow */
+    margin-bottom: 1rem;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  

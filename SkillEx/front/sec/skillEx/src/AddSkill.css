@@ -1,0 +1,60 @@
+.add-skill-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  h2{
+    color:black;
+  }
+  
+  .add-skill-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .add-skill-form input::placeholder {
+    color:white;
+  }
+  .add-skill-form textarea::placeholder{
+    color:white;
+  }
+  .add-skill-form input,
+  .add-skill-form textarea,
+  .add-skill-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-skill-form textarea {
+    height: 100px;
+  }
+  
+  .add-skill-form .type-selection {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 15px;
+    height: 50px;
+    width: 50px;
+  }
+  .add-skill-form .type-selection input{
+    height:20px;
+    width: 40px;
+  }
+  
+  .add-skill-form button {
+    background-color: #65A5AD;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-skill-form button:hover {        
+    color: #64DFE6;
+    background-color: black;
+  }
+  
